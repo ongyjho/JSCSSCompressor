@@ -8,7 +8,7 @@ LABEL repository="https://github.com/ongyjho/yui-compressor-for-pstp"
 LABEL maintainer="ongyjho <ongyjho@gmail.com>"
 
 RUN apt-get update\
-    && apt-get -y --no-install-recommends install yui-compressor\
+    && apt-get -y --no-install-recommends install yui-compressor
 
 ADD entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
