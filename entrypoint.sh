@@ -21,6 +21,4 @@ while read file; do
       echo $(basename $file)
 done
 
-
-node app.js
 exit 1;
