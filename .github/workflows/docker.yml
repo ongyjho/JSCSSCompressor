@@ -7,7 +7,9 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  compress:
     runs-on: ubuntu-latest
     steps:
-      uses: ongyjho/JSCSSCompressor@master
+      - name: compress
+        uses: ongyjho/JSCSSCompressor@master
+        
