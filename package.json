@@ -1,0 +1,29 @@
+{
+  "name": "jscsscompressor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ongyjho/JSCSSCompressor.git"
+  },
+  "author": "ongyjho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ongyjho/JSCSSCompressor/issues"
+  },
+  "homepage": "https://github.com/ongyjho/JSCSSCompressor#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2",
+    "uglify-js": "^3.10.1",
+    "yuicompressor": "^2.4.8"
+  },
+  "devDependencies": {
+    "gulp-minify-css": "^1.2.4"
+  }
+}
