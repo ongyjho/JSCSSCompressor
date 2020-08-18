@@ -16,4 +16,4 @@ RUN apt-get update\
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["java", "-jar", "/yui-compressor/yuicompressor/build/yuicompressor-2.4.2.jar"]
