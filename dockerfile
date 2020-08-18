@@ -13,4 +13,7 @@ RUN apt-get update\
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
+RUN ls -al
+RUN java -jar yuicompressor-2.4.2.jar main.js -o combined.js
+
 ENTRYPOINT ["/entrypoint.sh"]
